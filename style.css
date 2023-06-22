@@ -28,7 +28,8 @@ body{
     padding: 10px;
     z-index: 9999;
 }
-.logo h1{
+.logo h1{  
+
     font-family: 'Lobster', cursive;
     color: #f5c2c1;
     font-size: 34px;
@@ -38,6 +39,10 @@ body{
     margin-left: 10%;
     /*border: 1px solid red;*/
     text-align: left;
+}
+.logo:hover{
+    background-color: none;
+
 }
 
 .menu{
@@ -57,8 +62,8 @@ body{
 }
 
 .menu a:hover{
-    color: blueviolet;
-    border-top: 4px solid blueviolet ;
+    color: white;
+    border-top: 4px solid #f5c2c1 ;
 }
 
 #botao{
@@ -119,7 +124,7 @@ body{
 }
 
 .contact-btn:hover{
-    background: blue;
+    background: black;
 
 }
 
